@@ -18,6 +18,7 @@ function App() {
       <nav className="menu">
         <p>개발 BLOG</p>
       </nav>
+      <button>버튼</button>
       <div className="blog-list">
         <h2>
           {blogTit[0]} <button onClick={likeBtn}>❤️</button> {like}
